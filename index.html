@@ -5,14 +5,17 @@
   <title>Téléchargement BiothQue</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    /* Image de fond */
+    /* Image de fond dézoomée */
     body {
       margin: 0;
       height: 100vh;
       font-family: Arial, sans-serif;
-      background-image: url('ets.jpg'); /* Nom de ton image ici */
-      background-size: cover;
-      background-position: center;
+
+      background-image: url('ets.jpg'); /* Remplace par ton image */
+      background-size: contain;       /* Image entièrement visible */
+      background-repeat: no-repeat;   /* Pas de répétition */
+      background-position: center;    /* Centrée */
+      
       display: flex;
       align-items: center;
       justify-content: center;
@@ -23,7 +26,7 @@
       text-align: center;
       padding: 25px;
       border-radius: 12px;
-      background: rgba(255, 255, 255, 0.85); /* fond semi-transparent pour lisibilité */
+      background: rgba(255, 255, 255, 0.85); /* Fond semi-transparent */
       box-shadow: 0 4px 15px rgba(0,0,0,0.2);
       max-width: 400px;
     }
@@ -57,7 +60,8 @@
     <a class="button" href="BiothQue.apk" download="BiothQue.apk">Télécharger l’APK</a>
     <p class="warning">
       ⚠️ Android peut afficher un avertissement car ce fichier n’est pas sur le Play Store.  
-      C’est normal, notre APK est sûr. Activez simplement "Installer depuis cette source" pour continuer.
+      C’est normal, notre APK est sûr ! ✅  
+      Activez simplement "Installer depuis cette source" pour continuer. 🔒
     </p>
   </div>
 </body>
