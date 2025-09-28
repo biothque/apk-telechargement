@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Téléchargement en cours...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    window.onload = function() {
+      // URL directe vers l’APK dans le dépôt (branche main)
+      window.location.href = "https://toncompte.github.io/apk-telechargement/monapp.apk";
+    }
+  </script>
+  <style>
+    body {
+      display: flex; align-items: center; justify-content: center;
+      height: 100vh; font-family: Arial, sans-serif; background: #f5f5f5;
+    }
+    .box {
+      text-align: center; padding: 20px; border-radius: 10px;
+      background: white; box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    a { color: #0066cc; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>📥 Téléchargement en cours...</h2>
+    <p>Si le téléchargement ne démarre pas automatiquement,<br>
+    <a href="biothque.apk">cliquez ici</a>.</p>
+  </div>
+</body>
+</html>
